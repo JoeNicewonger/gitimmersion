@@ -1,5 +1,5 @@
 # Default is "World"
 #Author: Joseph Nicewonger (joenicewonger@gmail.com)
-name = ARVG.first || "World"
+name = ARGV.first || "World"
 
 puts "Hello, #{name}!"
